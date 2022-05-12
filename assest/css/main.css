@@ -1,0 +1,149 @@
+.header {
+    opacity: 0.6;
+}
+
+.header-bar {
+    font-size: 36px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    float: right;
+    display: block;
+}
+
+
+.header-bar:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.header-container {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.header-btn {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    margin: 30px 0;
+    border: none;
+}
+
+.header-btn:hover {
+    background-color: #ccc;
+    color: gray;
+    cursor: pointer;
+}
+
+.img {
+    padding: 0 8px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ccc;
+    opacity: 0.6;
+    margin-top: 128px;
+    padding: 64px 16px;
+}
+
+.footer-link {
+    font-size: 24px;
+}
+
+.footer-link i:hover {
+    opacity: 0.5;
+}
+
+.footer-title {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.footer-title a {
+    color: #000;
+}
+
+/* Menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* transform: translateY(-100%); */
+    background-color: #000;
+    color: #fff;
+    animation: aniin ease-in-out 1s;
+    /* animation: aniout ease-in-out 1s; */
+    /* display: none; */
+}
+
+@keyframes aniin {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes aniout {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%)
+    }
+}
+
+.menu i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    padding: 16px;
+}
+
+
+.menu i:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.menu-items {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    color: #757575;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.menu-item {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: #fff;
+}
